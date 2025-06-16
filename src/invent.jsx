@@ -368,6 +368,109 @@ function Invent() {
     width: "650px",
     lineHeight: "25px",
   };
+  const service = {
+    height: "1500px",
+  };
+  const servicetitle = {
+    position: "absolute",
+    top: "2700px",
+    left: "910px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const servicetitle2cigi = {
+    position: "absolute",
+    top: "2750px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const servicetitle2cigi2 = {
+    position: "absolute",
+    top: "2749px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const servicetext = {
+    position: "absolute",
+    top: "2780px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const servicecardrow1 = {
+    width: "1300px",
+    height: "250px",
+    position: "absolute",
+    top: "2870px",
+    left: "300px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const servicecardrow1Card1 = {
+    width: "625px",
+    height: "250px",
+    backgroundColor: "rgb(250, 250, 250)",
+    borderRadius: "25px",
+  };
+  const servicecard1icondiv = {
+    width: "70px",
+    height: "70px",
+    backgroundColor: "rgba(106,101,250,0.2)",
+    borderRadius: "20px",
+    position: "relative",
+    top: "40px",
+    left: "40px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
+  const servicecard1icon = {
+    color: "#5d57f4",
+    fontSize: "25px",
+  };
+  const servicecardrow1Card1Title = {
+    position: "relative",
+    left: "140px",
+    top: "-30px",
+    fontSize: "25px",
+    fontFamily: "sans-serif",
+  };
+  const servicecardrow1Card1Text = {
+    position: "relative",
+    left: "140px",
+    fontFamily: "sans-serif",
+    width: "470px",
+    lineHeight: "25px",
+    color: "#7c7c7c",
+  };
+  const servicecardrow1Card1LearnMore = {
+    fontFamily: "sans-serif",
+    color: "#5d57f4",
+    position: "relative",
+    left: "140px",
+    top: "13px",
+  };
+  const servicecardrow2 = {
+    width: "1300px",
+    height: "250px",
+    position: "absolute",
+    top: "3200px",
+    left: "300px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const servicecardrow3 = {
+    width: "1300px",
+    height: "250px",
+    position: "absolute",
+    top: "3530px",
+    left: "300px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
   return (
     <>
       <div style={navbar}>
@@ -552,6 +655,108 @@ function Invent() {
             Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
             Maecenas nec odio et ante tincidunt.
           </p>
+        </div>
+      </div>
+      <div style={service}>
+        <h2 style={servicetitle}>service </h2>
+        <div style={servicetitle2cigi}></div>
+        <div style={servicetitle2cigi2}></div>
+        <p style={servicetext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+        <div style={servicecardrow1}>
+          <div className="cardservice" style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-code"></i>
+            </div>
+            <h3 style={servicecardrow1Card1Title}>Custom Web Development</h3>
+            <p style={servicecardrow1Card1Text}>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla
+              sit amet nisl tempus convallis. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
+          <div style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-mobile"></i>{" "}
+            </div>
+            <h3 style={servicecardrow1Card1Title}>Mobile App Solutions</h3>
+            <p style={servicecardrow1Card1Text}>
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Vivamus magna justo, lacinia eget consectetur sed. Quisque
+              velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum
+              congue leo eget malesuada.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
+        </div>
+        <div style={servicecardrow2}>
+          <div style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-swatchbook"></i>{" "}
+            </div>
+            <h3 style={servicecardrow1Card1Title}>UI/UX Design</h3>
+            <p style={servicecardrow1Card1Text}>
+              Pellentesque in ipsum id orci porta dapibus. Proin eget tortor
+              risus. Vivamus suscipit tortor eget felis porttitor volutpat.
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
+          <div style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-signal"></i>{" "}
+            </div>
+            <h3 style={servicecardrow1Card1Title}>Digital Marketing</h3>
+            <p style={servicecardrow1Card1Text}>
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan
+              tincidunt. Curabitur aliquet quam id dui posuere blandit.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
+        </div>
+        <div style={servicecardrow3}>
+          <div style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-cloud"></i>{" "}
+            </div>
+            <h3 style={servicecardrow1Card1Title}>Cloud Computing</h3>
+            <p style={servicecardrow1Card1Text}>
+              Curabitur aliquet quam id dui posuere blandit. Sed porttitor
+              lectus nibh. Vivamus magna justo, lacinia eget consectetur sed,
+              convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
+          <div style={servicecardrow1Card1}>
+            <div style={servicecard1icondiv}>
+              <i style={servicecard1icon} class="fa-solid fa-shield"></i>{" "}
+            </div>
+            <h3 style={servicecardrow1Card1Title}>Cybersecurity Solutions</h3>
+            <p style={servicecardrow1Card1Text}>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Donec sollicitudin molestie malesuada. Curabitur arcu erat,
+              accumsan id imperdiet et. Proin eget tortor risus.
+            </p>
+            <p style={servicecardrow1Card1LearnMore}>
+              learn more <i class="fa-solid fa-arrow-right"></i>{" "}
+            </p>
+          </div>
         </div>
       </div>
     </>
