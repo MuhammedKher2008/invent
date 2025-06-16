@@ -2,6 +2,7 @@ import homeimage from "./assets/image1.webp";
 import about1 from "./assets/about-portrait-1.webp";
 import about2 from "./assets/about-8 (1).webp";
 import about3 from "./assets/about-12.webp";
+import kadin from "./assets/cta-4.webp";
 
 function Invent() {
   const navbar = {
@@ -369,7 +370,7 @@ function Invent() {
     lineHeight: "25px",
   };
   const service = {
-    height: "1500px",
+    height: "3000px",
   };
   const servicetitle = {
     position: "absolute",
@@ -471,6 +472,185 @@ function Invent() {
     display: "flex",
     justifyContent: "space-between",
   };
+  const serviceozellik = {
+    position: "absolute",
+    top: "3900px",
+    left: "300px",
+    fontSize: "18px",
+    fontFamily: "sans-serif",
+    color: "#5d57f4",
+  };
+  const serviceozelliktitle = {
+    position: "absolute",
+    top: "3950px",
+    width: "600px",
+    fontFamily: "sans-serif",
+    left: "300px",
+    fontSize: "2rem",
+  };
+  const serviceozellikText = {
+    position: "absolute",
+    top: "4050px",
+    left: "300px",
+    width: "600px",
+    fontSize: "1rem",
+    lineHeight: "2rem",
+    fontFamily: "sans-serif",
+    color: "#7c7c7c",
+  };
+  const serviceozellikbtn = {
+    width: "200px",
+    height: "50px",
+    borderRadius: "8px",
+    backgroundColor: "#5d57f4",
+    color: "white",
+    border: "none",
+    position: "absolute",
+    top: "4220px",
+    left: "300px",
+    fontSize: "17px",
+  };
+  const serviceozellikdiv = {
+    borderBottom: "1px solid #7c7c7c",
+    width: "600px",
+    height: "120px",
+    position: "absolute",
+    top: "3900px",
+    left: "1000px",
+  };
+  const serviceozellikdiv1iconDIv1 = {
+    width: "70px",
+    height: "70px",
+    border: "2px solid #5d57f4",
+    borderRadius: "50%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
+  const serviceozellikdiv1icon1 = {
+    color: "#5d57f4",
+    fontSize: "30px",
+  };
+  const serviceozellikdiv1Title = {
+    position: "relative",
+    top: "-70px",
+    left: "90px",
+    fontFamily: "sans-serif",
+    fontSize: "1.5rem",
+  };
+  const serviceozellikdiv1Text = {
+    position: "relative",
+    top: "-50px",
+    left: "90px",
+    fontFamily: "sans-serif",
+  };
+  const serviceozellikdiv2 = {
+    borderBottom: "1px solid #7c7c7c",
+    width: "600px",
+    height: "120px",
+    position: "absolute",
+    top: "4050px",
+    left: "1000px",
+  };
+  const serviceozellikdiv3 = {
+    borderBottom: "1px solid #7c7c7c",
+    width: "600px",
+    height: "120px",
+    position: "absolute",
+    top: "4200px",
+    left: "1000px",
+  };
+  const serviceozellikdiv4 = {
+    borderBottom: "1px solid #7c7c7c",
+    width: "600px",
+    height: "120px",
+    position: "absolute",
+    top: "4350px",
+    left: "1000px",
+  };
+  const kadinkismi = {
+    height: "1000px",
+    width: "100vw",
+    backgroundColor: "#f4f4f9",
+    position: "absolute",
+    top: "4600px",
+  };
+  const kadinImg = {
+    position: "relative",
+    left: "300px",
+    transform: "rotateY(180deg)",
+    width: "625px",
+    height: "970px",
+  };
+  const kadintitle = {
+    position: "absolute",
+    top: "300px",
+    left: "1000px",
+    width: "625px",
+    fontSize: "2.5rem",
+    fontFamily: "sans-serif",
+  };
+  const kadinText = {
+    fontSize: "1.1rem",
+    fontFamily: "sans-serif",
+    width: "600px",
+    position: "absolute",
+    top: "430px",
+    left: "1000px",
+    lineHeight: "2rem",
+  };
+  const kadinChekli = {
+    position: "absolute",
+    top: "550px",
+    left: "1000px",
+  };
+  const kadinChekli2 = {
+    position: "absolute",
+    top: "600px",
+    left: "1000px",
+  };
+  const kadinChekli3 = {
+    position: "absolute",
+    top: "650px",
+    left: "1000px",
+  };
+  const kadinchekicon = {
+    color: "#5d57f4",
+    fontSize: "30px",
+  };
+  const kadinchecktext = {
+    display: "inline",
+    position: "relative",
+    left: "10px",
+    top: "-5px",
+    fontFamily: "sans-serif",
+    fontSize: "18px",
+  };
+  const kadinbtn1 = {
+    width: "160px",
+    height: "60px",
+    backgroundColor: "#5d57f4",
+    position: "absolute",
+    top: "750px",
+    left: "1000px",
+    borderRadius:"10px",
+    border:"none",
+    color:"white",
+    fontSize:"17px"
+  };
+  const kadinbtn2 = {
+    width: "160px",
+  height: "60px",
+  border: "1px solid #5d57f4",
+  position: "absolute",
+  top: "750px",
+  left: "1200px",
+  borderRadius:"10px",
+  color:"#5d57f4",
+  fontSize:"17px",
+  backgroundColor:"#f4f4f9",
+  };
+  
   return (
     <>
       <div style={navbar}>
@@ -757,6 +937,75 @@ function Invent() {
               learn more <i class="fa-solid fa-arrow-right"></i>{" "}
             </p>
           </div>
+        </div>
+        <p style={serviceozellik}>Our innovative services</p>
+        <h1 style={serviceozelliktitle}>
+          Our customers excel in technology management
+        </h1>
+        <p style={serviceozellikText}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          tincidunt diam et gravida consequat. Sed nec mauris quis lacus commodo
+          lobortis. Suspendisse euismod commodo sem, in finibus purus bibendum
+          et. Morbi eu neque sed velit convallis vestibulum a vel odio.
+        </p>
+        <button style={serviceozellikbtn}>explore all services</button>
+        <div style={serviceozellikdiv}>
+          <div style={serviceozellikdiv1iconDIv1}>
+            <i style={serviceozellikdiv1icon1} class="fa-solid fa-code"></i>
+          </div>
+          <h2 style={serviceozellikdiv1Title}>Software Engineering</h2>
+          <p style={serviceozellikdiv1Text}>
+            Lorem ipsum dolor sit amet consectetur adipiscing.
+          </p>
+        </div>
+        <div style={serviceozellikdiv2}>
+          <div style={serviceozellikdiv1iconDIv1}>
+            <i style={serviceozellikdiv1icon1} class="fa-solid fa-signal"></i>
+          </div>
+          <h2 style={serviceozellikdiv1Title}>Business Analytics</h2>
+          <p style={serviceozellikdiv1Text}>
+            Lorem ipsum dolor sit amet consectetur adipiscing.
+          </p>
+        </div>
+        <div style={serviceozellikdiv3}>
+          <div style={serviceozellikdiv1iconDIv1}>
+            <i style={serviceozellikdiv1icon1} class="fa-solid fa-mobile"></i>
+          </div>
+          <h2 style={serviceozellikdiv1Title}>Mobile Solutions</h2>
+          <p style={serviceozellikdiv1Text}>
+            Lorem ipsum dolor sit amet consectetur adipiscing.
+          </p>
+        </div>
+        <div style={serviceozellikdiv4}>
+          <div style={serviceozellikdiv1iconDIv1}>
+            <i style={serviceozellikdiv1icon1} class="fa-solid fa-gear"></i>
+          </div>
+          <h2 style={serviceozellikdiv1Title}>Tech Infrastructure</h2>
+          <p style={serviceozellikdiv1Text}>
+            Lorem ipsum dolor sit amet consectetur adipiscing.
+          </p>
+        </div>
+        <div style={kadinkismi}>
+          <img style={kadinImg} src={kadin} alt="" />
+          <h2 style={kadintitle}>Transform Your Vision Into Reality Today</h2>
+          <p style={kadinText}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <div style={kadinChekli}>
+            <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+            <p style={kadinchecktext}>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div style={kadinChekli2}>
+            <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+            <p style={kadinchecktext}>Praesent eget risus vitae massa</p>
+          </div>
+          <div style={kadinChekli3}>
+            <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+            <p style={kadinchecktext}>Aenean pretium nisi vel pulvinar</p>
+          </div>
+          <button style={kadinbtn1}>get started</button>
+          <button style={kadinbtn2}>learn more</button>
         </div>
       </div>
     </>
