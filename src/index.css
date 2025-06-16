@@ -7,3 +7,12 @@ body {
   overflow-x: hidden;
   text-decoration: none;
 }
+
+.firstimage:hover{
+  transform: translateY(-30px);
+}
+
+.yukari:hover{
+  transform: translateY(-20px);
+  box-shadow: 0px 30px 20px;
+}
