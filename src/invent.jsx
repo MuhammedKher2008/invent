@@ -9,6 +9,10 @@ import portfolioCard3 from "./assets/content-pixie-Xv0CHwbn6O8-unsplash.jpg";
 import portfolioCard4 from "./assets/walls-io-JNe4RGikPjI-unsplash.jpg";
 import portfolioCard5 from "./assets/galina-n-miziNqvJx5M-unsplash.jpg";
 import portfolioCard6 from "./assets/donald-teel-kcYXep78jrk-unsplash.jpg";
+import person1 from "./assets/person-m-1.webp";
+import person2 from "./assets/person-f-3.webp";
+import person3 from "./assets/person-m-6.webp";
+import person4 from "./assets/person-f-6.webp";
 
 function Invent() {
   const navbar = {
@@ -1196,6 +1200,79 @@ function Invent() {
   };
   const team = {
     height: "685px",
+    backgroundColor: "#f4f4f9",
+  };
+
+  const teamtitle = {
+    position: "absolute",
+    top: "9500px",
+    left: "910px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const teamtitle2cigi = {
+    position: "absolute",
+    top: "9550px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const teamtitle2cigi2 = {
+    position: "absolute",
+    top: "9550px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const teamtext = {
+    position: "absolute",
+    top: "9580px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const Teamcardlar = {
+    width: "1232px",
+    height: "400px",
+    position: "relative",
+    top: "230px",
+    left: "350px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const teamcard1 = {
+    width: "288px",
+    height: "400px",
+    backgroundColor: "white",
+    borderRadius: "20px",
+    boxShadow: "0px 0px 30px rgb(95, 95, 95)",
+  };
+  const person1img = {
+    width: "288px",
+    borderTopLeftRadius: "20px",
+    borderTopRightRadius: "20px",
+  };
+  const person1name = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "20px",
+    left: "80px",
+  };
+  const person1gorev = {
+    width: "160px",
+    height: "32px",
+    
+    backgroundColor: "rgba(106,101,250,0.2)",
+    color: "#5d57fe",
+    borderRadius: "30px",
+    fontFamily: "sans-serif",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "relative",
+    top: "35px",
+    left: "70px",
   };
   return (
     <>
@@ -1764,13 +1841,35 @@ function Invent() {
         </div>
       </div>
       <div style={team}>
-        <h2 style={pricingtitle}>team </h2>
-        <div style={pricingtitle2cigi}></div>
-        <div style={pricingtitle2cigi2}></div>
-        <p style={pricingtext}>
+        <h2 style={teamtitle}>team </h2>
+        <div style={teamtitle2cigi}></div>
+        <div style={teamtitle2cigi2}></div>
+        <p style={teamtext}>
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
         </p>
+        <div style={Teamcardlar}>
+          <div style={teamcard1}>
+            <img style={person1img} src={person1} alt="" />
+            <h3 style={person1name}>Daniel Mitchell</h3>
+            <div style={person1gorev}>Creative Director</div>
+          </div>
+          <div style={teamcard1}>
+            <img style={person1img} src={person4} alt="" />
+            <h3 style={person1name}>Rebecca Taylor</h3>
+            <div style={person1gorev}>lead developer</div>
+          </div>
+          <div style={teamcard1}>
+            <img style={person1img} src={person3} alt="" />
+            <h3 style={person1name}>Marcus Johnson</h3>
+            <div style={person1gorev}>ui/ux designer</div>
+          </div>
+          <div style={teamcard1}>
+            <img style={person1img} src={person2} alt="" />
+            <h3 style={person1name}>Jessica Parker</h3>
+            <div style={person1gorev}>Marketing Strategist</div>
+          </div>
+        </div>
       </div>
     </>
   );
