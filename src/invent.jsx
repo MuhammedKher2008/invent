@@ -8,7 +8,7 @@ import portfolioCard2 from "./assets/maarten-deckers-5GKdpmo0wI8-unsplash.jpg";
 import portfolioCard3 from "./assets/content-pixie-Xv0CHwbn6O8-unsplash.jpg";
 import portfolioCard4 from "./assets/walls-io-JNe4RGikPjI-unsplash.jpg";
 import portfolioCard5 from "./assets/galina-n-miziNqvJx5M-unsplash.jpg";
-import portfolioCard6 from "./assets/donald-teel-kcYXep78jrk-unsplash.jpg"
+import portfolioCard6 from "./assets/donald-teel-kcYXep78jrk-unsplash.jpg";
 
 function Invent() {
   const navbar = {
@@ -774,6 +774,310 @@ function Invent() {
     left: "30px",
     color: "#7c7c7c",
   };
+
+  const pricing = {
+    height: "881px",
+    backgroundColor: "#f4f4f9",
+  };
+
+  const pricingtitle = {
+    position: "absolute",
+    top: "8000px",
+    left: "910px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const pricingtitle2cigi = {
+    position: "absolute",
+    top: "8050px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const pricingtitle2cigi2 = {
+    position: "absolute",
+    top: "8050px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const pricingtext = {
+    position: "absolute",
+    top: "8080px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const firstpackage = {
+    width: "416px",
+    height: "600px",
+    backgroundColor: "white",
+    position: "relative",
+    top: "250px",
+    left: "300px",
+    borderRadius: "20px",
+  };
+  const firstpackageTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "30px",
+    left: "30px",
+    fontSize: "1.5rem",
+  };
+  const firstpackagedolarsembol = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "60px",
+    left: "30px",
+  };
+  const firstpackageprice = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "35px",
+    left: "45px",
+    fontSize: "3.5rem",
+  };
+  const firstpackagesure = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "05px",
+    left: "135px",
+    color: "#797979",
+  };
+  const firstpackageText = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "45px",
+    left: "30px",
+    width: "370px",
+    lineHeight: "25px",
+  };
+  const firstpackageListTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "75px",
+    left: "30px",
+    width: "370px",
+  };
+  const firstpackageList1 = {
+    position: "relative",
+    top: "100px",
+    left: "30px",
+  };
+  const firstpackageList2 = {
+    position: "relative",
+    top: "120px",
+    left: "30px",
+  };
+  const firstpackageList3 = {
+    position: "relative",
+    top: "140px",
+    left: "30px",
+  };
+  const firstpackagebtn = {
+    width: "360px",
+    height: "50px",
+    border: "none",
+    borderRadius: "10px",
+    color: "white",
+    backgroundColor: "#5d57f4",
+    fontSize: "20px",
+    letterSpacing: "3px",
+    position: "relative",
+    top: "170px",
+    left: "30px",
+  };
+  const secondpackage = {
+    width: "416px",
+    height: "600px",
+    backgroundColor: "#5d57f4",
+    position: "relative",
+    top: "250px",
+    left: "300px",
+    borderRadius: "20px",
+  };
+  const secondpackageTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "30px",
+    left: "30px",
+    fontSize: "1.5rem",
+    color: "white",
+  };
+  const secondpackagedolarsembol = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "60px",
+    left: "30px",
+    color: "white",
+  };
+  const secondpackageprice = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "35px",
+    left: "45px",
+    fontSize: "3.5rem",
+    color: "white",
+  };
+  const secondpackagesure = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "05px",
+    left: "160px",
+    color: "white",
+  };
+  const secondpackageText = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "45px",
+    left: "30px",
+    width: "370px",
+    lineHeight: "25px",
+    color: "white",
+  };
+  const secondpackageListTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "75px",
+    left: "30px",
+    width: "370px",
+    color: "white",
+  };
+  const secondpackageList1 = {
+    position: "relative",
+    top: "100px",
+    left: "30px",
+    color: "white",
+  };
+  const secondpackageList2 = {
+    position: "relative",
+    top: "120px",
+    left: "30px",
+    color: "white",
+  };
+  const secondpackageList3 = {
+    position: "relative",
+    top: "140px",
+    left: "30px",
+    color: "white",
+  };
+  const packagelericon = {
+    color: "white",
+    fontSize: "30px",
+  };
+  const secondpackagebtn = {
+    width: "360px",
+    height: "50px",
+    border: "none",
+    borderRadius: "10px",
+    color: "#5d57f4",
+    backgroundColor: "white",
+    fontSize: "20px",
+    letterSpacing: "3px",
+    position: "relative",
+    top: "170px",
+    left: "30px",
+  };
+  const thirdpackage = {
+    width: "416px",
+    height: "600px",
+    backgroundColor: "white",
+    position: "relative",
+    top: "250px",
+    left: "300px",
+    borderRadius: "20px",
+  };
+  const thirdpackageTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "30px",
+    left: "30px",
+    fontSize: "1.5rem",
+  };
+  const thirdpackagedolarsembol = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "60px",
+    left: "30px",
+  };
+  const thirdpackageprice = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "35px",
+    left: "45px",
+    fontSize: "3.5rem",
+  };
+  const thirdpackagesure = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "05px",
+    left: "160px",
+    color: "#797979",
+  };
+  const thirdpackageText = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "45px",
+    left: "30px",
+    width: "370px",
+    lineHeight: "25px",
+  };
+  const thirdpackageListTitle = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "75px",
+    left: "30px",
+    width: "370px",
+  };
+  const thirdpackageList1 = {
+    position: "relative",
+    top: "100px",
+    left: "30px",
+  };
+  const thirdpackageList2 = {
+    position: "relative",
+    top: "120px",
+    left: "30px",
+  };
+  const thirdpackageList3 = {
+    position: "relative",
+    top: "140px",
+    left: "30px",
+  };
+  const thirdpackagebtn = {
+    width: "360px",
+    height: "50px",
+    border: "none",
+    borderRadius: "10px",
+    color: "white",
+    backgroundColor: "#5d57f4",
+    fontSize: "20px",
+    letterSpacing: "3px",
+    position: "relative",
+    top: "170px",
+    left: "30px",
+  };
+  const packageler = {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "1308px",
+  };
+  const mostpopuler = {
+    border:"#5d57f4 1px solid",
+    textAlign:"center",
+    backgroundColor:"white",
+    borderRadius:"20px",
+    color:"#5d57f4",
+    fontFamily:"sans-serif",
+    padding:"10px 0px",
+    width:"150px",
+    position:"absolute",
+    top:"8135px",
+    left:"880px",
+    zIndex:'2'
+    
+  }
   return (
     <>
       <div style={navbar}>
@@ -1203,6 +1507,93 @@ function Invent() {
           </div>
         </div>
       </div>
+      <div style={pricing}>
+        <h2 style={pricingtitle}>Pricing </h2>
+        <div style={pricingtitle2cigi}></div>
+        <div style={pricingtitle2cigi2}></div>
+        <p style={pricingtext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+        <div style={mostpopuler}>most popular</div>
+        <div style={packageler}>
+
+          <div style={firstpackage}>
+            <h3 style={firstpackageTitle}>Basic Plan</h3>
+            <h3 style={firstpackagedolarsembol}>$</h3>
+            <h3 style={firstpackageprice}>9.9</h3>
+            <p style={firstpackagesure}>/ month</p>
+            <p style={firstpackageText}>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium totam.
+            </p>
+            <h3 style={firstpackageListTitle}>Featured Included:</h3>
+            <div style={firstpackageList1}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Duis aute irure dolor</p>
+            </div>
+            <div style={firstpackageList2}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Excepteur sint occaecat</p>
+            </div>
+            <div style={firstpackageList3}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Nemo enim ipsam voluptatem</p>
+            </div>
+            <button style={firstpackagebtn}>buy now </button>
+          </div>
+          <div style={secondpackage}>
+            <h3 style={secondpackageTitle}>Basic Plan</h3>
+            <h3 style={secondpackagedolarsembol}>$</h3>
+            <h3 style={secondpackageprice}>19.9</h3>
+            <p style={secondpackagesure}>/ month</p>
+            <p style={secondpackageText}>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium totam.
+            </p>
+            <h3 style={secondpackageListTitle}>Featured Included:</h3>
+            <div style={secondpackageList1}>
+              <i style={packagelericon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div style={secondpackageList2}>
+              <i style={packagelericon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Consectetur adipiscing elit</p>
+            </div>
+            <div style={secondpackageList3}>
+              <i style={packagelericon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Sed do eiusmod tempor</p>
+            </div>
+
+            <button style={secondpackagebtn}>buy now </button>
+          </div>
+          <div style={thirdpackage}>
+            <h3 style={thirdpackageTitle}>Basic Plan</h3>
+            <h3 style={thirdpackagedolarsembol}>$</h3>
+            <h3 style={thirdpackageprice}>39.9</h3>
+            <p style={thirdpackagesure}>/ month</p>
+            <p style={thirdpackageText}>
+              Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+              esse quam nihil molestiae.
+            </p>
+            <h3 style={thirdpackageListTitle}>Featured Included:</h3>
+            <div style={thirdpackageList1}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Temporibus autem quibusdam</p>
+            </div>
+            <div style={thirdpackageList2}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Saepe eveniet ut et voluptates</p>
+            </div>
+            <div style={thirdpackageList3}>
+              <i style={kadinchekicon} class="fa-solid fa-circle-check"></i>
+              <p style={kadinchecktext}>Nam libero tempore soluta </p>
+            </div>
+            <button style={thirdpackagebtn}>buy now </button>
+          </div>
+        </div>
+      </div>
+      <div style={faq}> </div>
     </>
   );
 }
