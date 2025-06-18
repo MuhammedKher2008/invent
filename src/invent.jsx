@@ -1064,20 +1064,139 @@ function Invent() {
     width: "1308px",
   };
   const mostpopuler = {
-    border:"#5d57f4 1px solid",
-    textAlign:"center",
-    backgroundColor:"white",
-    borderRadius:"20px",
-    color:"#5d57f4",
-    fontFamily:"sans-serif",
-    padding:"10px 0px",
-    width:"150px",
-    position:"absolute",
-    top:"8135px",
-    left:"880px",
-    zIndex:'2'
-    
-  }
+    border: "#5d57f4 1px solid",
+    textAlign: "center",
+    backgroundColor: "white",
+    borderRadius: "20px",
+    color: "#5d57f4",
+    fontFamily: "sans-serif",
+    padding: "10px 0px",
+    width: "150px",
+    position: "absolute",
+    top: "8135px",
+    left: "880px",
+    zIndex: "2",
+  };
+  const faq = {
+    height: "650px",
+  };
+  const faqDiv = {
+    width: "640px",
+    height: "540px",
+    backgroundColor: "#5d57f4",
+    borderRadius: "15px",
+    position: "relative",
+    left: "300px",
+    top: "70px",
+  };
+  const fawdivicon = {
+    fontSize: "48px",
+  };
+  const faqicondiv = {
+    color: "white",
+    borderRadius: "50%",
+    border: "4px solid white",
+    width: "58px",
+    height: "58px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "relative",
+    top: "40px",
+    left: "50px",
+  };
+  const faqdivTitle = {
+    fontFamily: "sans-serif",
+    fontSize: "34px",
+    color: "white",
+    position: "relative",
+    top: "60px",
+    left: "40px",
+  };
+  const faqText = {
+    width: "550px",
+    color: "white",
+    fontFamily: "sans-serif",
+    fontSize: "16px",
+    lineHeight: "1.6",
+    position: "relative",
+    top: "80px",
+    left: "40px",
+  };
+  const faqicidiv1 = {
+    width: "550px",
+    height: "60px",
+    backgroundColor: "rgba(255,255,255,0.15)",
+    borderRadius: "10px",
+    position: "relative",
+    top: "110px",
+    left: "40px",
+  };
+  const faqemailicon = {
+    color: "white",
+    fontSize: "30px",
+    position: "relative",
+    top: "15px",
+    left: "30px",
+  };
+  const faqicidiv1text = {
+    fontSize: "20px",
+    color: "white",
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "10px",
+    left: "45px",
+  };
+  const faqicidiv2 = {
+    width: "550px",
+    height: "60px",
+    backgroundColor: "rgba(255,255,255,0.15)",
+    borderRadius: "10px",
+    position: "relative",
+    top: "130px",
+    left: "40px",
+  };
+  const faqicidiv3 = {
+    width: "550px",
+    height: "60px",
+    backgroundColor: "rgba(255,255,255,0.15)",
+    borderRadius: "10px",
+    position: "relative",
+    top: "150px",
+    left: "40px",
+  };
+  const accordionlardiv = {
+    height: "360px",
+    width: "640px",
+    position: "absolute",
+    top: "8860px",
+    left: "1000px",
+  };
+  const accordion1 = {
+    width: "640px",
+    height: "70px",
+    backgroundColor: "#f4f4f9",
+    borderRadius: "10px",
+    marginBottom: "20px",
+  };
+  const accordionText = {
+    fontFamily: "sans-serif",
+    fontSize: "18px",
+    position: "relative",
+    top: "25px",
+    left: "20px",
+    fontWeight: "600",
+  };
+  const accordionicon = {
+    color: "#5d57f4",
+    position: "relative",
+    top: "5px",
+    left: "590px",
+    fontSize: "22px",
+  };
+  const team = {
+    height: "685px",
+  };
   return (
     <>
       <div style={navbar}>
@@ -1517,7 +1636,6 @@ function Invent() {
         </p>
         <div style={mostpopuler}>most popular</div>
         <div style={packageler}>
-
           <div style={firstpackage}>
             <h3 style={firstpackageTitle}>Basic Plan</h3>
             <h3 style={firstpackagedolarsembol}>$</h3>
@@ -1593,7 +1711,67 @@ function Invent() {
           </div>
         </div>
       </div>
-      <div style={faq}> </div>
+      <div style={faq}>
+        <div style={faqDiv}>
+          <div style={faqicondiv}>
+            <i style={fawdivicon} class="fa-solid fa-question"></i>
+          </div>
+          <h2 style={faqdivTitle}>Still Have Questions?</h2>
+          <p style={faqText}>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
+            vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam
+            vehicula elementum.
+          </p>
+          <div style={faqicidiv1}>
+            <i style={faqemailicon} class="fa-solid fa-envelope"></i>
+            <span style={faqicidiv1text}>Email Support</span>
+          </div>
+          <div style={faqicidiv2}>
+            <i style={faqemailicon} class="fa-solid fa-comment"></i>
+            <span style={faqicidiv1text}>Live Chat</span>
+          </div>
+          <div style={faqicidiv3}>
+            <i style={faqemailicon} class="fa-solid fa-phone"></i>
+            <span style={faqicidiv1text}>call us</span>
+          </div>
+        </div>
+        <div style={accordionlardiv}>
+          <div style={accordion1}>
+            <p style={accordionText}>
+              Vivamus suscipit tortor eget felis porttitor volutpat?
+            </p>
+            <i style={accordionicon} class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div style={accordion1}>
+            <p style={accordionText}>
+              Curabitur aliquet quam id dui posuere blandit?{" "}
+            </p>
+            <i style={accordionicon} class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div style={accordion1}>
+            <p style={accordionText}>
+              Sed porttitor lectus nibh ullamcorper sit amet?
+            </p>
+            <i style={accordionicon} class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div style={accordion1}>
+            <p style={accordionText}>
+              Nulla quis lorem ut libero malesuada feugiat?
+            </p>
+            <i style={accordionicon} class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <div style={team}>
+        <h2 style={pricingtitle}>team </h2>
+        <div style={pricingtitle2cigi}></div>
+        <div style={pricingtitle2cigi2}></div>
+        <p style={pricingtext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
     </>
   );
 }
