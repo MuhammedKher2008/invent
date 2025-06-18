@@ -3,6 +3,12 @@ import about1 from "./assets/about-portrait-1.webp";
 import about2 from "./assets/about-8 (1).webp";
 import about3 from "./assets/about-12.webp";
 import kadin from "./assets/cta-4.webp";
+import portfolioCard1 from "./assets/libby-saylor-Zrz0pCDzSIY-unsplash.jpg";
+import portfolioCard2 from "./assets/maarten-deckers-5GKdpmo0wI8-unsplash.jpg";
+import portfolioCard3 from "./assets/content-pixie-Xv0CHwbn6O8-unsplash.jpg";
+import portfolioCard4 from "./assets/walls-io-JNe4RGikPjI-unsplash.jpg";
+import portfolioCard5 from "./assets/galina-n-miziNqvJx5M-unsplash.jpg";
+import portfolioCard6 from "./assets/donald-teel-kcYXep78jrk-unsplash.jpg"
 
 function Invent() {
   const navbar = {
@@ -633,24 +639,141 @@ function Invent() {
     position: "absolute",
     top: "750px",
     left: "1000px",
-    borderRadius:"10px",
-    border:"none",
-    color:"white",
-    fontSize:"17px"
+    borderRadius: "10px",
+    border: "none",
+    color: "white",
+    fontSize: "17px",
   };
   const kadinbtn2 = {
     width: "160px",
-  height: "60px",
-  border: "1px solid #5d57f4",
-  position: "absolute",
-  top: "750px",
-  left: "1200px",
-  borderRadius:"10px",
-  color:"#5d57f4",
-  fontSize:"17px",
-  backgroundColor:"#f4f4f9",
+    height: "60px",
+    border: "1px solid #5d57f4",
+    position: "absolute",
+    top: "750px",
+    left: "1200px",
+    borderRadius: "10px",
+    color: "#5d57f4",
+    fontSize: "17px",
+    backgroundColor: "#f4f4f9",
   };
-  
+  const portfolio = {
+    height: "2200px",
+  };
+
+  const portfoliotitle = {
+    position: "absolute",
+    top: "5700px",
+    left: "910px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const portfoliotitle2cigi = {
+    position: "absolute",
+    top: "5750px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const portfoliotitle2cigi2 = {
+    position: "absolute",
+    top: "5750px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const portfoliotext = {
+    position: "absolute",
+    top: "5780px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const portfolioKategori = {
+    display: "flex",
+    fontFamily: "sans-serif",
+    listStyle: "none",
+  };
+  const portfolioKategoriElement = {
+    margin: "20px",
+    position: "relative",
+    top: "150px",
+    left: "650px",
+    fontSize: "1.2rem",
+    padding: "15px",
+  };
+  const portfolioKategoriElement1 = {
+    margin: "20px",
+    position: "relative",
+    top: "150px",
+    left: "650px",
+    fontSize: "1.2rem",
+    backgroundColor: "#5d57f4",
+    color: "white",
+    padding: "15px 20px",
+    borderRadius: "10px",
+  };
+  const portfolioRow1Card1 = {
+    width: "1330px",
+    position: "relative",
+    top: "200px",
+    left: "320px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const portfolioRow2Card1 = {
+    width: "1330px",
+    position: "relative",
+    top: "250px",
+    left: "320px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const portfolioRow3Card1 = {
+    width: "1330px",
+    position: "relative",
+    top: "300px",
+    left: "320px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const portfoliocard1 = {
+    width: "640px",
+    height: "541px",
+    backgroundColor: "#f4f4f9",
+    borderRadius: "20px",
+  };
+  const portfolioCard1image = {
+    width: "640px",
+    height: "400px",
+    borderTopLeftRadius: "20px",
+    borderTopRightRadius: "20px",
+  };
+  const portfolioCard1Text1 = {
+    color: "#5d57f4",
+    fontFamily: "sans-serif",
+    fontSize: "18px",
+    position: "relative",
+    top: "13px",
+    left: "30px",
+    letterSpacing: "1px",
+    marginBottom: "10px",
+  };
+  const portfolioCard1Title = {
+    fontFamily: "sans-serif",
+    fontSize: "20px",
+    position: "relative",
+    top: "20px",
+    left: "30px",
+  };
+  const portfolioCard1Text2 = {
+    fontFamily: "sans-serif",
+    fontSize: "15px",
+    position: "relative",
+    top: "35px",
+    left: "30px",
+    color: "#7c7c7c",
+  };
   return (
     <>
       <div style={navbar}>
@@ -1006,6 +1129,78 @@ function Invent() {
           </div>
           <button style={kadinbtn1}>get started</button>
           <button style={kadinbtn2}>learn more</button>
+        </div>
+      </div>
+      <div style={portfolio}>
+        <h2 style={portfoliotitle}>portfolio </h2>
+        <div style={portfoliotitle2cigi}></div>
+        <div style={portfoliotitle2cigi2}></div>
+        <p style={portfoliotext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+        <ul style={portfolioKategori}>
+          <li style={portfolioKategoriElement1}>all work</li>
+          <li style={portfolioKategoriElement}> web design</li>
+          <li style={portfolioKategoriElement}>graphics</li>
+          <li style={portfolioKategoriElement}>motion</li>
+          <li style={portfolioKategoriElement}>branding</li>
+        </ul>
+        <div style={portfolioRow1Card1}>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard1} alt="" />
+            <p style={portfolioCard1Text1}>web design</p>
+            <h4 style={portfolioCard1Title}>Modern Dashboard Interface</h4>
+            <p style={portfolioCard1Text2}>
+              Maecenas faucibus mollis interdum sed posuere consectetur est at
+              lobortis.
+            </p>
+          </div>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard2} alt="" />
+            <p style={portfolioCard1Text1}>Graphics</p>
+            <h4 style={portfolioCard1Title}>Creative Brand Identity</h4>
+            <p style={portfolioCard1Text2}>
+              Vestibulum id ligula porta felis euismod semper at vulputate.
+            </p>
+          </div>
+        </div>
+        <div style={portfolioRow2Card1}>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard3} alt="" />
+            <p style={portfolioCard1Text1}>branding</p>
+            <h4 style={portfolioCard1Title}>Luxury Brand Package</h4>
+            <p style={portfolioCard1Text2}>
+              Aenean lacinia bibendum nulla sed consectetur elit.
+            </p>
+          </div>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard4} alt="" />
+            <p style={portfolioCard1Text1}>motion</p>
+            <h4 style={portfolioCard1Title}>Product Animation Reel</h4>
+            <p style={portfolioCard1Text2}>
+              Donec ullamcorper nulla non metus auctor fringilla dapibus.
+            </p>
+          </div>
+        </div>
+        <div style={portfolioRow3Card1}>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard5} alt="" />
+            <p style={portfolioCard1Text1}>Graphics</p>
+            <h4 style={portfolioCard1Title}>Digital Art Collection</h4>
+            <p style={portfolioCard1Text2}>
+              Cras mattis consectetur purus sit amet fermentum..
+            </p>
+          </div>
+          <div style={portfoliocard1}>
+            <img style={portfolioCard1image} src={portfolioCard6} alt="" />
+            <p style={portfolioCard1Text1}>web design</p>
+            <h4 style={portfolioCard1Title}>Modern Dashboard Interface</h4>
+            <p style={portfolioCard1Text2}>
+              Maecenas faucibus mollis interdum sed posuere consectetur est at
+              lobortis.
+            </p>
+          </div>
         </div>
       </div>
     </>
