@@ -1313,7 +1313,7 @@ function Invent() {
   const commentler = {
     position: "relative",
     top: "250px",
-    left: "400px",
+    left: "300px",
     display: "flex",
     justifyContent: "space-between",
     width: "1300px",
@@ -1372,6 +1372,119 @@ function Invent() {
     top: "-10px",
     fontSize: "14px",
   };
+  const contact = {
+    height: "1100px",
+  };
+  const contacttitle = {
+    position: "absolute",
+    top: "10850px",
+    left: "900px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const contacttitle2cigi = {
+    position: "absolute",
+    top: "10900px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const contacttitle2cigi2 = {
+    position: "absolute",
+    top: "10900px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const contacttext = {
+    position: "absolute",
+    top: "10930px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const contactCardlar = {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "1310px",
+    position: "relative",
+    top: "250px",
+    left: "300px",
+  };
+
+  const contactcard = {
+    width: "416px",
+    height: "225px",
+    border: "2px solid #f4f4f9",
+    borderRadius: "20px",
+  };
+  const contcatcard1Icon = {
+    width: "56px",
+    height: "56px",
+    backgroundColor: "rgba(106,101,250,0.2)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "50%",
+    fontSize: "25px",
+    color: "#5d57f4",
+    position: "relative",
+    top: "30px",
+    left: "180px",
+    textAlign: "center",
+  };
+  const contactcard1title = {
+    position: "relative",
+    top: "50px",
+    textAlign: "center",
+    fontFamily: "sans-serif",
+  };
+  const contactcard1text = {
+    position: "relative",
+    top: "70px",
+    textAlign: "center",
+    color: "#797979",
+    marginBottom: "10px",
+  };
+  const inputrow1 = {
+    position: "relative",
+    top: "350px",
+    left: "300px",
+    width: "1310px",
+    display: "flex",
+    justifyContent: "space-between",
+  };
+  const nameinp = {
+    width: "620px",
+    height: "50px",
+    borderRadius: "10px",
+    border: "2px solid #f4f4f9",
+    padding: "0px 10px",
+    marginBottom: "20px",
+  };
+  const textarea = {
+    width: "1310px",
+    height: "160px",
+    borderRadius: "10px",
+    border: "2px solid #f4f4f9",
+    padding: "10px 10px",
+    position:"relative",
+    top:"350px",
+    left:"300px"
+  };
+  const submit = {
+    width:"200px",
+    height:"50px",
+    border:"none",
+    backgroundColor:"#5d57f4",
+    color:"white",
+    fontSize:"20px",
+    borderRadius:"10px",
+    position:"absolute",
+    top:"11750px",
+    left:"850px"
+  }
   return (
     <>
       <div style={navbar}>
@@ -2039,6 +2152,81 @@ function Invent() {
             </div>
           </div>
         </div>
+      </div>
+      <div style={contact}>
+        <h2 style={contacttitle}>contact </h2>
+        <div style={contacttitle2cigi}></div>
+        <div style={contacttitle2cigi2}></div>
+        <p style={contacttext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+        <div style={contactCardlar}>
+          <div style={contactcard}>
+            <div style={contcatcard1Icon}>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h2 style={contactcard1title}>our address</h2>
+            <p style={contactcard1text}>
+              2847 Rainbow Road, Springfield, IL 62701, USA
+            </p>
+          </div>
+          <div style={contactcard}>
+            <div style={contcatcard1Icon}>
+              <i class="fa-solid fa-phone"></i>{" "}
+            </div>
+            <h2 style={contactcard1title}>contact number</h2>
+            <p style={contactcard1text}>mobile: +1 (555) 123-4567</p>
+            <p style={contactcard1text}>email: info@example.com</p>
+          </div>
+          <div style={contactcard}>
+            <div style={contcatcard1Icon}>
+              <i class="fa-solid fa-clock"></i>{" "}
+            </div>
+            <h2 style={contactcard1title}>our address</h2>
+            <p style={contactcard1text}>monday - saturday:9:00 - 18:00</p>
+            <p style={contactcard1text}>sunday : closed</p>
+          </div>
+        </div>
+        <div style={inputrow1}>
+          <input
+            placeholder="enter your name"
+            style={nameinp}
+            type="text"
+            name=""
+            id=""
+          />
+          <input
+            placeholder="enter your email address"
+            style={nameinp}
+            type="email"
+            name=""
+            id=""
+          />
+        </div>
+        <div style={inputrow1}>
+          <input
+            placeholder="enter your phone number"
+            style={nameinp}
+            type="text"
+            name=""
+            id=""
+          />
+          <select style={nameinp} name="" id="">
+            <option value="">select service</option>
+            <option value="">marketing</option>
+            <option value="">development</option>
+            <option value="">support</option>
+            <option value="">consulting</option>
+          </select>
+        </div>
+        <textarea
+          style={textarea}
+          placeholder="enter your message"
+          name=""
+          id=""
+        ></textarea>
+        <button style={submit}>submit message</button>
       </div>
     </>
   );
