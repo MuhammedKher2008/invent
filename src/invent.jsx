@@ -1469,22 +1469,136 @@ function Invent() {
     borderRadius: "10px",
     border: "2px solid #f4f4f9",
     padding: "10px 10px",
-    position:"relative",
-    top:"350px",
-    left:"300px"
+    position: "relative",
+    top: "350px",
+    left: "300px",
   };
   const submit = {
-    width:"200px",
-    height:"50px",
-    border:"none",
-    backgroundColor:"#5d57f4",
-    color:"white",
-    fontSize:"20px",
-    borderRadius:"10px",
-    position:"absolute",
-    top:"11750px",
-    left:"850px"
-  }
+    width: "200px",
+    height: "50px",
+    border: "none",
+    backgroundColor: "#5d57f4",
+    color: "white",
+    fontSize: "20px",
+    borderRadius: "10px",
+    position: "absolute",
+    top: "11750px",
+    left: "850px",
+  };
+  const footer = {
+    height: "414px",
+    backgroundColor: "#f4f4f9",
+  };
+  const brand = {
+    fontWeight: "700",
+    fontSize: "26px",
+    letterSpacing: "1px",
+    fontFamily: "sans-serif",
+    position: "relative",
+    left: "300px",
+    top: "50px",
+  };
+  const footeradrees = {
+    fontFamily: "sans-serif",
+    position: "absolute",
+    left: "300px",
+    top: "12020px",
+    width: "200px",
+  };
+  const footerphone = {
+    fontFamily: "sans-serif",
+    position: "absolute",
+    left: "300px",
+    top: "12090px",
+  };
+  const footeremail = {
+    fontFamily: "sans-serif",
+    position: "absolute",
+    left: "300px",
+    top: "12130px",
+  };
+  const facebook = {
+    position: "absolute",
+    left: "300px",
+    top: "12200px",
+    width: "30px",
+    height: "30px",
+    border: "1px solid black",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "50%",
+  };
+  const twiiteer = {
+    position: "absolute",
+    left: "340px",
+    top: "12200px",
+    width: "30px",
+    height: "30px",
+    border: "1px solid black",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "50%",
+  };
+
+  const instgram = {
+    position: "absolute",
+    left: "380px",
+    top: "12200px",
+    width: "30px",
+    height: "30px",
+    border: "1px solid black",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "50%",
+  };
+  const linkedin = {
+    position: "absolute",
+    left: "420px",
+    top: "12200px",
+    width: "30px",
+    height: "30px",
+    border: "1px solid black",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "50%",
+  };
+  const footerlist1 = {
+    position: "absolute",
+    top: "11960px",
+    left: "650px",
+  };
+  const footerlist2 = {
+    position: "absolute",
+    top: "11960px",
+    left: "900px",
+  };
+  const footerlist3= {
+    position: "absolute",
+    top: "11960px",
+    left: "1150px",
+  };
+  const footerlist4 = {
+    position: "absolute",
+    top: "11960px",
+    left: "1400px",
+  };
+  const list1title = {
+    fontFamily: "sans-serif",
+    fontSize: "23px",
+  };
+  const list1ul = {
+    listStyle: "none",
+  };
+  const list1element = {
+    margin: "20px 0px",
+    fontFamily: "sans-serif",
+    fontSize: "17px",
+    color: "#797979",
+  };
   return (
     <>
       <div style={navbar}>
@@ -2227,6 +2341,60 @@ function Invent() {
           id=""
         ></textarea>
         <button style={submit}>submit message</button>
+      </div>
+      <div style={footer}>
+        <span style={brand}>MyWebsite</span>
+        <span style={footeradrees}>A108 Adam Street New York, NY 535022</span>
+        <span style={footerphone}>
+          <b>phone:</b> +1 5589 55488 55
+        </span>
+        <span style={footeremail}>
+          <b>Email:</b> info@example.com
+        </span>
+        <i style={facebook} class="fa-brands fa-facebook-f"></i>
+        <i style={twiiteer} class="fa-brands fa-x-twitter"></i>
+        <i style={instgram} class="fa-brands fa-instagram"></i>
+        <i style={linkedin} class="fa-brands fa-linkedin"></i>
+        <div style={footerlist1}>
+          <h3 style={list1title}>Useful Links</h3>
+          <ul style={list1ul}>
+            <li style={list1element}>home</li>
+            <li style={list1element}>about us</li>
+            <li style={list1element}>services</li>
+            <li style={list1element}>terms of service</li>
+            <li style={list1element}>privecy policy</li>
+          </ul>
+        </div>
+        <div style={footerlist2}>
+          <h3 style={list1title}>Our Services</h3>
+          <ul style={list1ul}>
+            <li style={list1element}>web design</li>
+            <li style={list1element}>web development</li>
+            <li style={list1element}>product management</li>
+            <li style={list1element}>marketing</li>
+            <li style={list1element}>graphic design</li>
+          </ul>
+        </div>
+        <div style={footerlist3}>
+          <h3 style={list1title}>Hic solutasetp</h3>
+          <ul style={list1ul}>
+            <li style={list1element}>Molestiae accusamus iure</li>
+            <li style={list1element}>Excepturi dignissimos</li>
+            <li style={list1element}>Suscipit distinctio</li>
+            <li style={list1element}>Dilecta</li>
+            <li style={list1element}>Sit quas consectetur</li>
+          </ul>
+        </div>
+        <div style={footerlist4}>
+          <h3 style={list1title}>nobis illum</h3>
+          <ul style={list1ul}>
+            <li style={list1element}>Ipsam</li>
+            <li style={list1element}>Laudantium dolorum</li>
+            <li style={list1element}>Dinera</li>
+            <li style={list1element}>Trodelas</li>
+            <li style={list1element}>Flexo</li>
+          </ul>
+        </div>
       </div>
     </>
   );
