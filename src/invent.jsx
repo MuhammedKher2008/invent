@@ -13,6 +13,9 @@ import person1 from "./assets/person-m-1.webp";
 import person2 from "./assets/person-f-3.webp";
 import person3 from "./assets/person-m-6.webp";
 import person4 from "./assets/person-f-6.webp";
+import commentperson from "./assets/person-m-8 (1).webp";
+import comment2person from "./assets/person-f-10.webp";
+import comment3person from "./assets/person-m-2.webp";
 
 function Invent() {
   const navbar = {
@@ -1262,7 +1265,7 @@ function Invent() {
   const person1gorev = {
     width: "160px",
     height: "32px",
-    
+
     backgroundColor: "rgba(106,101,250,0.2)",
     color: "#5d57fe",
     borderRadius: "30px",
@@ -1273,6 +1276,101 @@ function Invent() {
     position: "relative",
     top: "35px",
     left: "70px",
+  };
+  const comments = {
+    height: "685px",
+  };
+
+  const commentstitle = {
+    position: "absolute",
+    top: "10150px",
+    left: "870px",
+    fontSize: "35px",
+    fontFamily: "sans-serif",
+  };
+  const commentstitle2cigi = {
+    position: "absolute",
+    top: "10200px",
+    left: "865px",
+    width: "200px",
+    height: "2px",
+    backgroundColor: "grey",
+  };
+  const commentstitle2cigi2 = {
+    position: "absolute",
+    top: "10200px",
+    left: "945px",
+    width: "50px",
+    height: "4px",
+    backgroundColor: "#5d57f4",
+  };
+  const commentstext = {
+    position: "absolute",
+    top: "10230px",
+    left: "710px",
+    fontFamily: "sans-serif",
+  };
+  const commentler = {
+    position: "relative",
+    top: "250px",
+    left: "400px",
+    display: "flex",
+    justifyContent: "space-between",
+    width: "1300px",
+  };
+  const comment1 = {
+    width: "412px",
+    height: "342px",
+    border: "#f4f4f9 2px solid",
+    borderRadius: "20px",
+  };
+  const comment1content = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    top: "30px",
+    left: "20px",
+    width: "390px",
+    lineHeight: "25px",
+  };
+  const comment1Kisi = {
+    width: "412px",
+    height: "140px",
+    borderTop: "2px #f4f4f9  solid",
+    backgroundColor: "#f4f4f9",
+    position: "relative",
+    top: "100px",
+    borderBottomRightRadius: "20px",
+    borderBottomLeftRadius: "20px",
+  };
+  const yildizlar = {
+    color: "#ffc107",
+    letterSpacing: "2px",
+    position: "relative",
+    top: "20px",
+    left: "20px",
+  };
+  const comment1person = {
+    width: "60px",
+    height: "60px",
+    borderRadius: "50%",
+    border: "3px white solid",
+    position: "relative",
+    top: "40px",
+    left: "20px",
+  };
+  const comment1Name = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    left: "100px",
+    top: "-20px",
+    fontSize: "15px",
+  };
+  const comment1personGorev = {
+    fontFamily: "sans-serif",
+    position: "relative",
+    left: "100px",
+    top: "-10px",
+    fontSize: "14px",
   };
   return (
     <>
@@ -1868,6 +1966,77 @@ function Invent() {
             <img style={person1img} src={person2} alt="" />
             <h3 style={person1name}>Jessica Parker</h3>
             <div style={person1gorev}>Marketing Strategist</div>
+          </div>
+        </div>
+      </div>
+      <div style={comments}>
+        <h2 style={commentstitle}>testimonials </h2>
+        <div style={commentstitle2cigi}></div>
+        <div style={commentstitle2cigi2}></div>
+        <p style={commentstext}>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+        <div style={commentler}>
+          <div style={comment1}>
+            <p style={comment1content}>
+              {" "}
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora
+              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+              aliquam eget nibh et maecenas aliquam.
+            </p>
+            <div style={comment1Kisi}>
+              <div style={yildizlar}>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <img style={comment1person} src={commentperson} alt="" />
+              <h5 style={comment1Name}>robert Johnson</h5>
+              <p style={comment1personGorev}>marketing director</p>
+            </div>
+          </div>
+          <div style={comment1}>
+            <p style={comment1content}>
+              {" "}
+              Enim nisi quem export duis labore cillum quae magna enim sint
+              quorum nulla quem veniam duis minim tempor labore quem eram duis
+              noster aute amet eram.
+            </p>
+            <div style={comment1Kisi}>
+              <div style={yildizlar}>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <img style={comment1person} src={comment2person} alt="" />
+              <h5 style={comment1Name}>Emma Parker</h5>
+              <p style={comment1personGorev}>UX Designer</p>
+            </div>
+          </div>
+          <div style={comment1}>
+            <p style={comment1content}>
+              {" "}
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora
+              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
+              aliquam eget nibh et maecenas aliquam.
+            </p>
+            <div style={comment1Kisi}>
+              <div style={yildizlar}>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <img style={comment1person} src={comment3person} alt="" />
+              <h5 style={comment1Name}>michial davis</h5>
+              <p style={comment1personGorev}>ceo & founder</p>
+            </div>
           </div>
         </div>
       </div>
